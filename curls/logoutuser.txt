@@ -1,0 +1,2 @@
+# Run after login; cookies.txt is created by the login command.
+curl.exe -i -b cookies.txt -c cookies.txt -X POST http://127.0.0.1:8000/accounts/logout/
